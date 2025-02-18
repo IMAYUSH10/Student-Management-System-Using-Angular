@@ -1,0 +1,17 @@
+div.c1{
+    text-align: center;
+    color:black;
+    border:50px solid violet;
+    background-color:aquamarine;
+}
+div.c11{
+ display: flex;
+ justify-content: space-between;
+ margin-left:5%;
+ margin-top:50px;
+ 
+
+ }
+
+
+   

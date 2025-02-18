@@ -1,0 +1,29 @@
+div.s1{
+    margin-left: 100px;
+    
+}
+table{
+    margin-top: 20px;
+    margin-left: 40%;
+    border:10px solid whitesmoke;
+    padding:12px solid whitesmoke;
+   
+}
+tr,th{
+    border:10px solid whitesmoke;
+    padding:12px solid whitesmoke;
+    background-color: whitesmoke;
+    color:black;
+}
+.Advantages{
+    text-align: center;
+}
+button{
+   justify-content: center;
+   text-align: center;
+    margin-left: 40%;
+    background-color: violet;
+    color: black;
+    padding: 14px 20px;
+    border-radius: 5px;
+}

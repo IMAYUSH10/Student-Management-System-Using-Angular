@@ -1,0 +1,28 @@
+div.m1{
+    margin-left: 100px;
+    
+}
+input{
+    padding:12px;
+    margin:20px;
+    width:100%;
+    border:4px solid black;
+}
+
+div.f1{
+    margin-left: 100px;
+    display: inline-flex;
+   
+}
+button{
+    padding:12px;
+    margin:20px;
+    width:105%;
+    border:4px solid black;
+    background-color: violet;
+    color:white;
+}
+.userform{
+   
+     text-align: center;
+}

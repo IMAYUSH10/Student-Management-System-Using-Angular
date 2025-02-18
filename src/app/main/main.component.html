@@ -1,0 +1,31 @@
+<div class="container">
+    <h2 class="userform">User Form</h2>
+  
+    
+    <form (ngSubmit)="addUser()" #userForm="ngForm">
+      <input type="text" [(ngModel)]="user.name" name="name" placeholder="Enter Name" required />
+      <input type="email" [(ngModel)]="user.email" name="email" placeholder="Enter Email" required />
+      <button type="submit">Add User</button>
+    </form>
+    <table *ngIf="users.length > 0">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>
+              <button (click)="deleteUser(user.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
